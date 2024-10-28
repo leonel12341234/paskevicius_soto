@@ -1,4 +1,3 @@
-p
 
 # Proyecto Juego del Ahorcado
 
