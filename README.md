@@ -19,7 +19,7 @@ Este es un juego clásico del ahorcado, desarrollado como un proyecto de program
 - Python 3.8 o superior
 - Biblioteca estándar de Python
 
-Instalación y uso
+## Instalación y uso
 Clonar el repositorio: Descarga el proyecto en tu computadora.
 
 bash
