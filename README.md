@@ -18,7 +18,6 @@ Este es un juego clásico del ahorcado, desarrollado como un proyecto de program
 ## Requisitos
 - Python 3.8 o superior
 - Biblioteca estándar de Python
-- MySQL para la base de datos
 
 ## Instalación y uso
 1. Clona el repositorio en tu computadora.
@@ -30,12 +29,6 @@ Este es un juego clásico del ahorcado, desarrollado como un proyecto de program
 - `aplicacion/`: contiene el código del juego.
   - `main.py`: archivo principal que ejecuta el juego y contiene el menú.
   - `funciones_juego.py`: funciones auxiliares del juego, como mostrar la palabra y validar intentos.
-- `bd/`: contiene los scripts SQL y los diagramas de la base de datos.
-  - `estructura.sql`: crea las tablas de la base de datos.
-  - `datos.sql`: carga datos iniciales en las tablas.
-  - `consultas.sql`: consultas SQL para el CRUD de la base de datos.
-  - `base_de_datos_y_diagramas.pdf`: documento con los diagramas de la base de datos y una breve explicación de las consultas.
-
 ## Funcionalidades del Juego
 1. Elige una palabra al azar de la lista.
 2. Permite al usuario adivinar letra por letra.
