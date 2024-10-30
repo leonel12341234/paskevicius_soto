@@ -19,11 +19,30 @@ Este es un juego clásico del ahorcado, desarrollado como un proyecto de program
 - Python 3.8 o superior
 - Biblioteca estándar de Python
 
-## Instalación y uso
-1. Clona el repositorio en tu computadora.
-2. Ejecuta el archivo `estructura.sql` en MySQL para crear la base de datos.
-3. Carga los datos iniciales con `datos.sql`.
-4. Ejecuta `main.py` para iniciar el juego.
+Instalación y uso
+Clonar el repositorio: Descarga el proyecto en tu computadora.
+
+bash
+Copiar código
+git clone https://github.com/tu_usuario/proyecto_horcado.git
+cd proyecto_horcado
+Requisitos: Asegúrate de tener Python 3.8 o superior instalado. Si no lo tienes, puedes descargarlo desde python.org.
+
+Ejecutar el juego:
+
+Ve a la carpeta aplicacion.
+Ejecuta el archivo principal para iniciar el juego.
+bash
+Copiar código
+cd aplicacion
+python main.py
+Uso:
+
+Al iniciar el programa, verás un mensaje de bienvenida al juego.
+El juego seleccionará una palabra al azar, y podrás empezar a adivinarla letra por letra.
+Tienes un número limitado de intentos, así que elige tus letras sabiamente.
+El juego termina cuando adivinas la palabra o te quedas sin intentos.
+
 
 ## Estructura de Archivos
 - `aplicacion/`: contiene el código del juego.
